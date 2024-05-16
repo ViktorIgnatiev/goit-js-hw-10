@@ -43,6 +43,8 @@ import "izitoast/dist/css/iziToast.min.css";
 
     // Вимкнення кнопки після натискання
     document.querySelector('[data-start]').disabled = true;
+    // Вимкнення інпуту після натискання
+    document.getElementById('datetime-picker').disabled = true;
 
     // Функція оновлення таймера
     function updateTimer() {
